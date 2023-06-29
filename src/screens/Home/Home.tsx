@@ -23,7 +23,7 @@ const Home = () => {
                 }
             }
             return () => buscaCor()
-        }, [])
+        }, [data])
     );
 
     return (
